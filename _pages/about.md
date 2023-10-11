@@ -9,6 +9,8 @@ redirect_from:
 ---
 <div align="center"><img width="130" height="200" src=/images/500x300.png/></div>
 
+<img width="130" height="200" src=/images/500x300.png/>
+
 ![](/images/500x300.png#pic_right)
 
 <div align="center">M.S Student 1 left</div> 
