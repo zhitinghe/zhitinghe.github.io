@@ -10,7 +10,7 @@ redirect_from:
 <div align="center">
   <img width="130" height="200" src=/images/500x300.png/> </div>
 
-![](/images/500x300.png#pic_center)
+![](/images/500x300.png#pic_right)
 
 <div align="center">M.S Student left</div> 
 - h_zhiting@163.com  /  hezhiting@cuc.edu.cn
