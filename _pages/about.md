@@ -11,7 +11,7 @@ redirect_from:
 
 ![](/images/500x300.png#pic_right)
 
-<div align="center">M.S Student left</div> 
+<div align="center">M.S Student 1 left</div> 
 - h_zhiting@163.com  /  hezhiting@cuc.edu.cn
 
 
