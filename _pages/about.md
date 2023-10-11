@@ -7,11 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div align="center"><img src='/images/Personal Photo.png' width="200px"></div>
 <br>
+<div align="center"><img src='/images/Personal Photo.png' width="200px"></div>
 <center><font size="3" >M.S Student</font></center>
 <center><font size="3" >h_zhiting@163.com  /  hezhiting@cuc.edu.cn</font></center>
-<br>
 <br>
 
 # Biography
