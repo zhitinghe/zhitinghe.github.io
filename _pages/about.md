@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-！(/images/500x300.png){: .align-left width="300px"} 
+!(/images/500x300.png){: .align-left width="300px"} 
 
 Hello! I'm currently studying Digital Media Art for my Master's degree at the Communication University of China. I've always been curious about how technology can impact our lives, especially in the realms of Virtual Reality (VR) and digital mental health. I've had the opportunity to be part of some exciting research projects, both at my university and at other institutions like the City University of Hong Kong. Most of my research revolves around VR design in supporting mental health and self-development, also cover some topic of AIGC and cultural heritage.
 
