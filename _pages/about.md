@@ -8,16 +8,8 @@ redirect_from:
   - /about.html
 ---
 <div align="center"><img width="130" height="200" src='/images/500x300.png'></div>
-
-<img width="130" height="200" src=/images/500x300.png/>
-
-![](/images/500x300.png#pic_right)
-
-<div align="center">M.S Student</div> 
-<div align="center">h_zhiting@163.com  /  hezhiting@cuc.edu.cn</div> 
-<center><font size="6" color="black">M.S Student</font></center>
-
-
+<center><font size="2" >M.S Student</font></center>
+<center><font size="2" >h_zhiting@163.com  /  hezhiting@cuc.edu.cn</font></center>
 
 # Biography
 
@@ -41,7 +33,7 @@ Hello! I'm currently studying Digital Media Art for my Master's degree at the Co
             </td>
             <td>
                 <!--右侧内容-->
-                右侧
+                <h4>Research Keywords</h4>
             </td>
         </tr>
     </table>
