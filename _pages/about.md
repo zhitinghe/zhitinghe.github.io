@@ -11,7 +11,7 @@ redirect_from:
 <div align="center">
   <img width="130" height="200" src=/images/500x300.png/> </div>
 
-- M.S Student
+<div align="center">M.S Student</div> 
 - h_zhiting@163.com  /  hezhiting@cuc.edu.cn
 
 
