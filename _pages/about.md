@@ -1,12 +1,3 @@
----
-permalink: /
-title: ""
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
 
 <div align="center">
   <img width="130" height="200" src=/images/500x300.png/> </div>
