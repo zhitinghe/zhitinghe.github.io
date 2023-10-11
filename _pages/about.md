@@ -8,13 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-<div>
-  <img align="left" width="130" height="200" src=/images/500x300.png/>
+<div align="center">
+  <img width="130" height="200" src=/images/500x300.png/> </div>
 
 - M.S Student
 - h_zhiting@163.com  /  hezhiting@cuc.edu.cn
 
-</div>
 
 # Biography
 
