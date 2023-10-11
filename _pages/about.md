@@ -27,6 +27,25 @@ Hello! I'm currently studying Digital Media Art for my Master's degree at the Co
 - Virtual Reality
 - Mental Health
 - Awe Experience
+<html>
+    <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+                <!--左侧内容-->
+                <h4>Research Keywords</h4>
+              <ul>
+<li>Virtual Reality</li>
+<li>Mental Health</li>
+<li>Awe Experience</li>
+</ul>
+            </td>
+            <td>
+                <!--右侧内容-->
+                右侧
+            </td>
+        </tr>
+    </table>
+</html>
 
 
 
