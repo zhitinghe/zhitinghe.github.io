@@ -1,6 +1,6 @@
 ---
 title: "<em>Lost in Metaverse</em> VR Short Film"
-excerpt: " <br/><img src='/images/LIM1.png'>"
+excerpt: "<img src='/images/LIM1.png'>"
 collection: portfolio
 ---
 <img src='/images/LIM1.png' width="500px">
