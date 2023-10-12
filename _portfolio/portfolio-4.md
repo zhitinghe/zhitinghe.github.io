@@ -1,6 +1,6 @@
 ---
 title: "<em>Your Virtual Boyfriend</em> VR Video "
-excerpt: " <br/><img src='/images/VB1.png'>"
+excerpt: "<img src='/images/VB1.png'>"
 collection: portfolio
 ---
 
