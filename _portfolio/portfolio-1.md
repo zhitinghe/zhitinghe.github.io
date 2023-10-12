@@ -21,4 +21,4 @@ Based on theories about the sublime and embodiment, we designed a head-mounted V
 - Writed paper.
 
 ## Publications
-He, Z., Fan, M., Guo, X., Zhao, Y. (in review). “I Feel Myself So Small!”: Designing and Evaluating of Embodied Awe Experiences in Virtual Reality. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI ’24).
+**He, Z.**, Fan, M., Guo, X., Zhao, Y. (in review). “I Feel Myself So Small!”: Designing and Evaluating of Embodied Awe Experiences in Virtual Reality. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI ’24).
