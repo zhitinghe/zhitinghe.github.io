@@ -22,3 +22,4 @@ collection: portfolio
 
 ## Experience Video
 <video src='https://www.bilibili.com/video/BV1JZ4y1971b/?share_source=copy_web&vd_source=7a4b7795d9f6aae6421f7e772fe989ab' width="500px" controls="controls"></video> 
+<iframe src="//player.bilibili.com/player.html?aid=379706907&bvid=BV1JZ4y1971b&cid=456762860&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="500px> </iframe>
