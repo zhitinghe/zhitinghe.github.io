@@ -1,5 +1,5 @@
 ---
-title: "<em>Your Virtual Boyfriend</em> VR Video "
+title: "<em>Your Virtual Boyfriend</em> VR Healing Video "
 excerpt: "<img src='/images/VB1.png'>"
 collection: portfolio
 ---
@@ -20,5 +20,5 @@ collection: portfolio
 - Designed simple actor interactions like "giving water" and "using headphones" that touched users.
 - Made animations and effects with Blender and UE4.
 
-## Seleced Experience Video
+## Seleced Video
 <video src='/images/Vid_VB1.mp4' width="500px" controls="controls"></video> 
