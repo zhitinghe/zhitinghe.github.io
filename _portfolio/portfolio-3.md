@@ -21,6 +21,6 @@ collection: portfolio
 - Played the role of a digital consultant
 
 ## Creative Process
-<video src='/images/Vid-LIM1.mp4' width="500px" controls="controls"></video> 
+<video src='/images/Vid_LIM1.mp4' width="500px" controls="controls"></video> 
 
 <img src='/images/LIM4.JPG' width="500px">
