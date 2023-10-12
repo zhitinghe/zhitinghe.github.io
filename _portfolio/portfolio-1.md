@@ -1,6 +1,6 @@
 ---
 title: "<em>Lost in Metaverse</em> VR Short Film"
-excerpt: "<em>Lost in Metaverse</em> tells the story of future virtual agents generating self-awareness based on the master's data, hacking the master's consciousness in the virtual world and replacing the master's personality to live in real world. <br/><img src='/images/LIM1.png'>"
+excerpt: " <br/><img src='/images/LIM1.png'>"
 collection: portfolio
 ---
 <img src='/images/LIM1.png' width="500px">
