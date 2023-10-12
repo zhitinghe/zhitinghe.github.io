@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zhiting He"
   avatar           : "Personal Photo.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Seeking virtual wonders, living fully, and sharing well-being"
 #  location         : "Location"
 #  employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -234,7 +234,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
