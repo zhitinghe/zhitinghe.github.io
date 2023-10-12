@@ -20,4 +20,4 @@ The _Blue Apple_ comic attempts to convey a theme similar to _The Moon and Sixpe
 </tr></table> 
 
 ## My Role
-- Completed independently
+- Created individually using Midjourney and Photoshop.
