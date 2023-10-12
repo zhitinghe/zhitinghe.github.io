@@ -1,6 +1,6 @@
 ---
 title: "<em>Blue Apple</em> AI Comic"
-excerpt: " <br/><img src='/images/BA1.png'>"
+excerpt: "<img src='/images/BA1.png'>"
 collection: portfolio
 ---
 <img src='/images/BA1.png' width="500px">
