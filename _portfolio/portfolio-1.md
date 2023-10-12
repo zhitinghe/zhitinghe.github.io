@@ -1,4 +1,4 @@
-![image](https://github.com/zhitinghe/zhitinghe.github.io/assets/108384006/7a0be8fe-6690-4459-bc4d-c29d25072977)---
+---
 title: "<em>Lost in Metaverse</em> VR Short Film"
 excerpt: "<em>Lost in Metaverse</em> tells the story of future virtual agents generating self-awareness based on the master's data, hacking the master's consciousness in the virtual world and replacing the master's personality to live in real world. <br/><img src='/images/LIM1.png'>"
 collection: portfolio
