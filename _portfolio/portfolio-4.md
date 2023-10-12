@@ -19,4 +19,4 @@ collection: portfolio
 - Made animations and effects with Blender and UE4.
 
 ## Experience Video
-<video src='https://b23.tv/OzGFS3q' width="500px" controls="controls"></video> 
+<video src='https://www.bilibili.com/video/BV1JZ4y1971b/?p=1&share_medium=ipad&share_plat=ios&share_session_id=5F15E1BF-2A60-4F03-A938-6C7865380D45&share_source=COPY&share_tag=s_i&timestamp=1639061208&unique_k=OzGFS3q&vd_source=96a16e4113c4c1a5bfeef7119fd1cd1d' width="500px" controls="controls"></video> 
