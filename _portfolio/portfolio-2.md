@@ -1,5 +1,5 @@
 ---
-title: "A Workshop on Reviving Heritage through AI Image Generation"
+title: "A Workshop on Reviving Cultural Heritage through AI Image Generation"
 excerpt: "<img src='/images/UW3.png'>"
 collection: portfolio
 ---
