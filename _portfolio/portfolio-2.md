@@ -1,6 +1,6 @@
 ---
 title: "A Workshop on Reviving Heritage through AI Image Generation"
-excerpt: "<img src='/images/UW1.png'>"
+excerpt: "<img src='/images/UW3.png'>"
 collection: portfolio
 ---
 <img src='/images/UW1.png' width="500px">
