@@ -16,6 +16,11 @@ We invited fve actors with different actor to play five different virtual agents
 <td><img src='/images/LIM4.JPG' border=0 /></td>
 </tr></table> 
 
+<table><tr>
+<td style="border-style:none;"><img src='/images/LIM4.JPG' border=0 /></td>
+<td style="border-style:none;"><img src='/images/LIM4.JPG' border=0 /></td>
+</tr></table> 
+
 <center class="half">
 <img src='/images/LIM4.JPG' width="00"/>
 <img src='/images/LIM4.JPG' width="300px"/>
