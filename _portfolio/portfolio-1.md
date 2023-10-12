@@ -21,6 +21,7 @@ collection: portfolio
 - Played the role of a digital consultant
 
 <h2>Creative Process</h2>
-<video src='/images/Vid-LIM1.mp4' width="500px"></video> 
+<video src='/images/Vid-LIM1.mp4' width="500px" controls="controls"></video> 
+<video src='https://github.com/zhitinghe/zhitinghe.github.io/raw/master/images/Vid-LIM1.mp4' width="500px" controls="controls"></video> 
 <img src='/images/LIM4.JPG' width="500px">
 
