@@ -1,5 +1,5 @@
 ---
-title: "<em>MoonTide</em> Awe-Inspiring VR Experience"
+title: "Awe-Inspiring VR Experience"
 excerpt: "<img src='/images/VA1.png'>"
 collection: portfolio
 ---
