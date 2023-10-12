@@ -17,3 +17,6 @@ Participants demonstrated distinct interaction patterns. Our findings indicate t
 - Designed and conducted workshops.
 - Analyzed data.
 - Writed paper.
+
+## Publications
+He, Z., Wang, T., Chen, L., Su, J., Wong, K., Fung, W., LC, R. (in review). An Imaginative Urban Walk: Engendering Expression and Imagination of Tangible Cultural Heritage Sites Using Generative AI. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI ’24).
