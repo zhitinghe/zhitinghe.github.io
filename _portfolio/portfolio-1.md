@@ -11,7 +11,7 @@ This is an item in your portfolio. It can be have images or nice text. If you na
 </h2>
 We invited fve actors with different actor to play five different virtual agents. The master, you, are tied in a chair and watching the whole story from a first-person perspective. When pushed out of the body by one of the virtual agent, the audience feel floating in the air due to the shaking view and movement. After the explosion of the TV broadcast, the audience will return to the original kidnapping scene, which imply that the master is trapped in the virtual world and can never make an escape. We designed the interaction, effect and plot to try to create amazing first-person experience in VR.
 
-<table><tr>
+<table style="border-style:none"><tr>
 <td><img src='/images/LIM4.JPG' border=0 /></td>
 <td><img src='/images/LIM4.JPG' border=0 /></td>
 </tr></table> 
