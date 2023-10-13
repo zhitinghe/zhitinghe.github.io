@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhiting He"
+title                    : "Zhiting He (Justine)"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhiting He"
+  name             : "Zhiting He (Justine)"
   avatar           : "Personal Photo.png"
   bio              : "Exploring virtual marvels, embracing life, and spreading well-being"
 #  location         : "Location"
