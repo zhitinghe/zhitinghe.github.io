@@ -16,7 +16,10 @@ main:
     #url: /year-archive/
     
   - title: "CV"
-    url: /files/Zhiting He_CV.pdf
+    url: /files/CV_Zhiting He.pdf
+
+  - title: "Transcript"
+    url: /files/Transcript_Zhiting He.pdf
     
   #- title: "Guide"
     #url: /markdown/
