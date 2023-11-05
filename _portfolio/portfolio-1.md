@@ -1,5 +1,5 @@
 ---
-title: "_MoonTide_ Awe-Inspiring VR Experience"
+title: "Awe-Inspiring VR Experience"
 excerpt: "<img src='/images/VA1.png'>"
 collection: portfolio
 ---
@@ -8,7 +8,7 @@ collection: portfolio
 ## Introduction
 Recent research suggests the potential of utilizing interactive technology to support self-transcendent positive emotional experiences, thereby promoting physical and psychological well-being. Among positive emotions, awe is complex, emerging when people experience something greater than themselves. This emotion can lead to prosocial behaviors, pro-environmental actions, and reduced anxiety.
 
-Based on theories related to the sublime and embodiment, we designed a head-mounted VR experience named "MoonTide", aimed at effectively inducing awe experiences. MoonTide allowed participants to experience the day-night cycle with the vast moon and rising tide by viewing and controlling the virtual body and feeling the sensation of raindrops and wave splashes.
+Based on theories related to the sublime and embodiment, we designed a head-mounted VR experience, aimed at effectively inducing awe experiences. Our VR design allowed participants to experience the day-night cycle with the vast moon and rising tide by viewing and controlling the virtual body and feeling the sensation of raindrops and wave splashes.
 
 ## My Role
 - Project leader.
