@@ -13,10 +13,10 @@ Participants demonstrated distinct interaction patterns. Our findings indicate t
 <img src='/images/UW2.png' width="500px">
 
 ## My Role
-- Recruited participants.
-- Designed and conducted workshops.
-- Analyzed data.
-- Writed paper.
+- Designed workshop processes, preparing data collection forms, tutorial videos, interview outlines, and other materials. Led a portion of the workshops
+- Led the team in content analysis of workshop images and thematic analysis of interview transcripts
+- Wrote sections of the paper, including related work, method, conclusion, and discussion
 
 ## Publications
-**He, Z.**, Wang, T., Chen, L., Su, J., Wong, K., Fung, W., LC, R. (in review). An Imaginative Urban Walk: Engendering Expression and Imagination of Tangible Cultural Heritage Sites Using Generative AI. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI ’24).
+**He, Z.**, Wang, T., Chen, L., Su, J., Wong, K., Fung, W., LC, R. An Imaginative Urban Walk: Engendering Expression 
+and Imagination of Tangible Cultural Heritage Sites Using Generative AI. In preparation for submission.
