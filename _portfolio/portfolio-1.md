@@ -5,7 +5,7 @@ collection: portfolio
 ---
 <!-- <img src='/images/VA1.png' width="500px"> -->
 
-## Introduction
+<!-- ## Introduction
 Recent research suggests the potential of utilizing interactive technology to support self-transcendent positive emotional experiences, thereby promoting physical and psychological well-being. Among positive emotions, awe is complex, emerging when people experience something greater than themselves. This emotion can lead to prosocial behaviors, pro-environmental actions, and reduced anxiety.
 
 Based on theories related to the sublime and embodiment, we designed a head-mounted VR experience, aimed at effectively inducing awe experiences. Our VR design allowed participants to experience the day-night cycle with the vast moon and rising tide by viewing and controlling the virtual body and feeling the sensation of raindrops and wave splashes.
@@ -20,4 +20,4 @@ Based on theories related to the sublime and embodiment, we designed a head-moun
 - Writed paper.
 
 ## Publications
-**He, Z.**, Fan, M., Guo, X., Zhao, Y. "I Feel Myself So Small!": Designing and Evaluating of Embodied Awe Experiences in Virtual Reality. In preparation for submission.
+**He, Z.**, Fan, M., Guo, X., Zhao, Y. "I Feel Myself So Small!": Designing and Evaluating of Embodied Awe Experiences in Virtual Reality. In preparation for submission. -->
