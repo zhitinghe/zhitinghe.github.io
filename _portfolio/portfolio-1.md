@@ -3,7 +3,7 @@ title: "Awe-Inspiring VR Experience"
 excerpt: "<img src='/images/VA1.png'>"
 collection: portfolio
 ---
-<img src='/images/VA1.png' width="500px">
+<!-- <img src='/images/VA1.png' width="500px"> -->
 
 ## Introduction
 Recent research suggests the potential of utilizing interactive technology to support self-transcendent positive emotional experiences, thereby promoting physical and psychological well-being. Among positive emotions, awe is complex, emerging when people experience something greater than themselves. This emotion can lead to prosocial behaviors, pro-environmental actions, and reduced anxiety.
