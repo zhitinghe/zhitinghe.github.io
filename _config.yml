@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhiting He (Justine)"
-  avatar           : "Personal Photo.png"
-  bio              : "Exploring virtual marvels, embracing life, and spreading well-being"
+#  name             : "Zhiting He (Justine)"
+#  avatar           : "Personal Photo.png"
+#  bio              : "Exploring virtual marvels, embracing life, and spreading well-being"
 #  location         : "Location"
 #  employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
