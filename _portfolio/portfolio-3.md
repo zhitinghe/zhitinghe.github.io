@@ -16,9 +16,9 @@ collection: portfolio
 </tr></table> 
 
 ## My Role
-- Directed and shot on-site using insta360.
-- Designed simple actor interactions like "giving water" and "using headphones" that touched users.
-- Made animations and effects with Blender and UE4.
+- Directed and filmed on location using Insta360.
+- Designed actor's interactions such as "offering water" and "using headphones."
+- Created animations and visual effects using Blender and UE4.
 
 ## Seleced Video
 <video src='/images/Vid_VB1.mp4' width="500px" controls="controls"></video> 
