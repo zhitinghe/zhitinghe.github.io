@@ -44,3 +44,11 @@
     {% endfor %}
   </ul>
 </nav>
+
+  <!-- 添加说明文字和音乐播放器到导航栏的最右边 -->
+  <span style="margin-right: 10px; font-size: 14px;">I enjoy singing in my free time :)</span>
+  <audio controls style="margin-right: 0;">
+    <source src="your-music-file.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</nav>
