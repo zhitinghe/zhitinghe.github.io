@@ -7,7 +7,7 @@ collection: portfolio
 ## Introduction
 <em>Your Virtual Boyfriend</em> features four distinct scenes and narratives. We incorporated attractive actors and comforting storylines to help alleviate pain and anxiety in female users. Our team drew inspiration from embodied cognition theory in designing these scenes, each of which includes a relaxing environment, soothing music, a romantic plot, and a handsome male character. Users particularly appreciated the interactions with the character, such as eye contact or the act of passing a drink. We utilized tools including Blender and UE4 to enhance the experience with special effects and animations, enriching the overall immersion.
 <table style="border-style:none;"><tr>
-<td style="border-style:none;"><img src='/images/VB5.png' border=0 /></td>
+<td style="border-style:none;"><video src='/images/ZTQ.mp4' border=0 /></td>
 <td style="border-style:none;"><img src='/images/VB2.png' border=0 /></td>
   </tr></table> 
 <table style="border-style:none;"><tr>
