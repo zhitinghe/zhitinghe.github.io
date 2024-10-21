@@ -19,7 +19,8 @@ collection: portfolio
 - Completed facial and motion capture, and used UE4 to produce virtual assets and effects.
 - Acted as a digital consultant.
 
-## Creative Process
-<video src='/images/Vid_LIM1.mp4' width="500px" controls="controls"></video> 
+## Screen recordings of VR videos
+<video src='/images/Lost in metaverse_small_1.mp4' width="500px" controls="controls"></video> 
+<video src='/images/Lost in metaverse_small_2.mp4' width="500px" controls="controls"></video> 
 
 <img src='/images/LIM4.JPG' width="500px">
