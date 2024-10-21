@@ -22,6 +22,6 @@ collection: portfolio
 
 ## Screen recordings of VR videos 
 <video src='/images/ZTQ.mp4' width="500px" controls="controls"></video> 
-<video src='/images/GZT_small.mov' width="500px" controls="controls"></video> 
-<video src='/images/LDY_small.mov' width="500px" controls="controls"></video> 
+<video src='/images/GZT_small.mp4' width="500px" controls="controls"></video> 
+<video src='/images/LDY_small.mp4' width="500px" controls="controls"></video> 
 <video src='/images/WQH.mp4' width="500px" controls="controls"></video> 
