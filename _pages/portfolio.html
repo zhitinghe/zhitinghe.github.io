@@ -117,7 +117,6 @@ author_profile: true
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             max-width: 1200px;
-            margin: 0 auto;
         }
 
         .project-card {
@@ -126,6 +125,7 @@ author_profile: true
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 0;
         }
 
         .project-card:hover {
@@ -142,10 +142,12 @@ author_profile: true
             width: 100%;
             height: 250px;
             object-fit: cover;
+            margin-bottom: 0;
         }
 
         .project-content {
-            padding: -2rem 1rem 1rem 1rem;
+            padding: 0rem 1rem 1rem 1rem;
+            margin-top: 0;
         }
 
         .project-title {
