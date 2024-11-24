@@ -12,8 +12,8 @@ main:
   - title: "Projects"
     url: /portfolio/
         
-  #- title: "Blog Posts"
-    #url: /year-archive/
+  - title: "Blog Posts"
+    url: /portfolio-1/
     
   - title: "CV"
     url: /files/CV_Justine (Zhiting He).pdf
