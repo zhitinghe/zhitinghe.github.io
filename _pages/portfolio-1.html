@@ -141,89 +141,123 @@ author_profile: true
 
 
 
-        .container {
-            max-width: 1440px;
-            margin: 0 auto;
-            padding: 2rem;
-            width: 100%;
-        }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
-        .project-showcase {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
-            background-color: white;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
+/* Hero Section */
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 8rem;
+}
 
-        .image-container {
-            width: 100%;
-            border-radius: 8px;
-            overflow: hidden;
-        }
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
-        .hero-image {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.3s ease;
-        }
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
 
+.hero-content p {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    max-width: 500px;
+}
 
-        .content {
-            padding: 2rem;
-        }
+/* Design Elements Section */
+.design-elements h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    line-height: 1.2;
+}
 
-        h1 {
-            font-size: 3.5rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            color: #1a1a1a;
-        }
+.element {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+    align-items: start;
+}
 
-        .description {
-            font-size: 1.25rem;
-            color: #666;
-            max-width: 500px;
-            line-height: 1.6;
-        }
+.element-content h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
 
-        @media screen and (max-width: 992px) {
-            .project-showcase {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-            
-            .content {
-                padding: 1rem 0;
-            }
-            
-            h1 {
-                font-size: 2.5rem;
-            }
-        }
+.element-content ul {
+    list-style: none;
+}
 
-        @media screen and (max-width: 576px) {
-            .container {
-                padding: 1rem;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .description {
-                font-size: 1rem;
-            }
-            
-            .project-showcase {
-                padding: 1rem;
-            }
-        }
+.element-content li {
+    color: #4a4a4a;
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.element-content li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4a4a4a;
+}
+
+.element-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 1024px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .element {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .design-elements h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .design-elements h2 {
+        font-size: 1.75rem;
+    }
+
+    .element-content h3 {
+        font-size: 1.5rem;
+    }
+}
     </style>
 </head>
 <body>
@@ -242,14 +276,66 @@ author_profile: true
             <a href="#" class="paper-btn">Paper</a>
         </div>
     </div>
-        <section class="project-showcase">
-            <div class="image-container">
-                <img src="moon-tide.jpg" alt="MoonTide VR Experience" class="hero-image">
-            </div>
-            <div class="content">
-                <h1>MoonTide<br>VR Experience</h1>
-                <p class="description">The MoonTide VR experience was designed based on sublime-based awe-inspiring design elements around the theme of tidal forces.</p>
+
+
+    
+    <div class="container">
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-image">
+                    <img src="moon-ocean.jpg" alt="Full moon over ocean">
+                </div>
+                <div class="hero-content">
+                    <h1>MoonTide<br>VR Experience</h1>
+                    <p>The MoonTide VR experience was designed based on sublime-based awe-inspiring design elements around the theme of tidal forces.</p>
+                </div>
             </div>
         </section>
+
+        <section class="design-elements">
+            <h2>Sublime-Based Awe-Inspiring<br>Design Elements</h2>
+            
+            <div class="element">
+                <div class="element-content">
+                    <h3>Terror</h3>
+                    <ul>
+                        <li>Huge waves.</li>
+                        <li>Tremendous sound.</li>
+                        <li>A vast moon suddenly appear.</li>
+                        <li>Extreme light in contrast to the darkness of the night.</li>
+                    </ul>
+                </div>
+                <div class="element-image">
+                    <img src="waves.jpg" alt="Waves visualization">
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="element-content">
+                    <h3>Distance or modification</h3>
+                    <ul>
+                        <li>The huge waves are at a distance from the shore.</li>
+                        <li>The huge waves gradually move away.</li>
+                        <li>The vast moon eventually sets, as the sun begins to rise.</li>
+                    </ul>
+                </div>
+                <div class="element-image">
+                    <img src="setting-moon.jpg" alt="Setting moon">
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="element-content">
+                    <h3>Obscurity</h3>
+                    <ul>
+                        <li>The vast moon is much larger than what we usually see in daily life.</li>
+                    </ul>
+                </div>
+                <div class="element-image">
+                    <img src="large-moon.jpg" alt="Large moon">
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
