@@ -66,11 +66,21 @@ author_profile: true
             text-decoration: none;
             border-radius: 8px;
             transition: background-color 0.3s ease;
+            cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
         }
 
         .btn:hover {
             background-color: #357ABD;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
         }
+
+        .btn:active {
+            transform: scale(0.95); /* Shrink the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Inward shadow on click */
+        }
+
 
         /* Image Placeholder */
         .image-content img {
