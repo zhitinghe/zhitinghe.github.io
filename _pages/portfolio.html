@@ -91,6 +91,76 @@ author_profile: true
                 font-size: 2.5rem;
             }
         }
+
+         .projects-section {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .projects-section h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 1rem;
+        }
+
+        .project-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-description {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .project-tag {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            background-color: #FFD700;
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body>
@@ -107,6 +177,45 @@ author_profile: true
             </div>
         </div>
     </header>
+
+        <section class="projects-section">
+        <h1>Projects</h1>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/600x400" alt="MoonTide VR" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">MoonTide VR Experience</h2>
+                    <p class="project-description">
+                        The MoonTide VR experience was designed based on sublime-based awe-inspiring design elements around the theme of tidal forces.
+                    </p>
+                    <span class="project-tag">ISMAR’24</span>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/600x400" alt="Urban Walks" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">Urban Walks</h2>
+                    <p class="project-description">
+                        The Urban Walks project explores awe-inspiring urban imagery to evoke positive emotions and unique perspectives on city landscapes.
+                    </p>
+                    <span class="project-tag">CSCW’25</span>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/600x400" alt="Cabin Retreat" class="project-image">
+                <div class="project-content">
+                    <h2 class="project-title">Cabin Retreat</h2>
+                    <p class="project-description">
+                        Designed to inspire awe through a serene forest environment, Cabin Retreat focuses on the emotional impact of nature immersion.
+                    </p>
+                    <span class="project-tag">CSCW’25</span>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
 
@@ -134,10 +243,10 @@ author_profile: true
 
 
 
-<-- {% include base_path %} --!>
+/*  {% include base_path %} */
 
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+/* {% for post in site.portfolio %}*/
+/*   {% include archive-single.html %}*/
+/* {% endfor %}*/
 
