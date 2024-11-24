@@ -11,177 +11,182 @@ author_profile: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoonTide VR Experience</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <style>
+  .paper-button {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    background: #FDC435;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #FDC435;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Default shadow */
+  }
 
-        body {
-            font-family: Arial, sans-serif;
-        }
+  /* Hover effect */
+  .paper-button:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+    background-color: #fbb03b; /* Change background color */
+    border-color: #fbb03b; /* Change border color */
+    transform: translateY(-3px); /* Slightly lift the button */
+  }
 
-        @media (max-width: 768px) {
-            .hero {
-                height: 50vh;
-            }
+  /* Active (click) effect */
+  .paper-button:active {
+    transform: scale(0.95); /* Shrink the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Inward shadow on click */
+  }
+    
+    /* Base styles for the arrow link */
+  .arrow-link {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1);
+  }
 
-            .hero-content h1 {
-                font-size: 2.5rem;
-            }
+  /* Hover effect */
+  .arrow-link:hover {
+    color: #FDC435; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the arrow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increase shadow */
+  }
 
-            .back-button {
-                font-size: 1.5rem;
-            }
-
-            .project-title {
-                font-size: 1.5rem;
-            }
-
-            .hero-container2 {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-content2 h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero-content2 {
-                padding: 1rem;
-                text-align: center;
-            }
-
-            .element-item {
-                grid-template-columns: 1fr;
-            }
-
-            .element-image {
-                height: 250px;
-            }
-
-            .sublime-elements h2 {
-                font-size: 2rem;
-            }
-
-            .element-content h3 {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+  /* Active (click) effect */
+  .arrow-link:active {
+    transform: scale(0.95); /* Shrink the arrow on click */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Inward shadow on click */
+  }
+</style>
+  
 </head>
-<body>
-    <section class="hero" style="height: 70vh; width: 100%; background: linear-gradient(to bottom, rgba(44, 55, 71, 0.3), rgba(44, 55, 71, 0.3)), url('moon-background.jpg'); background-size: cover; background-position: center; position: relative;">
-        <a href="#" class="back-button" style="position: absolute; top: 2rem; left: 2rem; color: white; font-size: 2rem; text-decoration: none; cursor: pointer;">←</a>
-        <div class="hero-content" style="position: absolute; bottom: 4rem; left: 2rem;">
-            <h1 style="color: white; font-size: 3.5rem; font-weight: bold; margin-bottom: 2rem;">MoonTide VR Experience</h1>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box;">
+    <!-- Hero Section -->
+    <section style="height: 70vh; width: 100%; background: linear-gradient(to bottom, rgba(44, 55, 71, 0.3), rgba(44, 55, 71, 0.3)), url('https://images.unsplash.com/photo-1731902062588-4dce45ccc0cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center; position: relative;">
+        <a href="#" class="arrow-link">←</a>
+        <div style="position: absolute; bottom: 4rem; left: 10rem;">
+            <h1 style="color: white; font-size: 5rem; font-weight: bold; margin-bottom: 2rem;">MoonTide VR Experience</h1>
         </div>
     </section>
-    
-    <div class="project-info" style="padding: 2rem; background: white;">
-        <div class="content-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
-            <h2 class="project-title" style="font-size: 1.8rem; font-weight: bold; margin-bottom: 1rem;">"I Feel Myself So Small!": Designing and Evaluating VR Awe Experiences Based on Theories Related to Sublime.</h2>
-            <div class="authors" style="color: #666; margin-bottom: 0.5rem;">Zhiting He, Min Fan, Xinyi Guo, Yifan Zhao, Yuqiu Wang</div>
-            <div class="conference" style="color: #4a90e2; margin-bottom: 1rem;">IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2024)</div>
-            <a href="#" class="paper-btn" style="display: inline-block; padding: 0.5rem 2rem; background: #ffd700; border-radius: 25px; text-decoration: none; color: black; font-weight: bold; border: 2px solid #ffd700; transition: all 0.3s ease; cursor: pointer;">Paper</a>
+
+    <!-- Project Info Section -->
+    <div style="padding: 2rem; background-color: #EAEAEA;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
+            <h2 style="font-size: 1.8rem; font-weight: bold; margin-bottom: 1rem;">"I Feel Myself So Small!": Designing and Evaluating VR Awe Experiences Based on Theories Related to Sublime.</h2>
+            <div style="color: #666; margin-bottom: 0.5rem;">Zhiting He, Min Fan, Xinyi Guo, Yifan Zhao, Yuqiu Wang</div>
+            <div style="color: #406690; margin-bottom: 1.5rem;">IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2024)</div>
+<a href="#" class="paper-button"；>
+    Paper </a>
+
         </div>
     </div>
 
-    <section class="hero2" style="width: 100%; min-height: 100vh; background-color: #f5f5f5; display: flex; align-items: center; padding: 2rem;">
-        <div class="hero-container2" style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
-            <div class="hero-image2" style="width: 100%; height: 100%;">
-                <img src="moon-image.jpg" alt="Full moon reflecting over ocean" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
+    <!-- Hero 2 Section -->
+    <section style="width: 100%; min-height: 50vh; background-color: #EAEAEA; display: flex; align-items: center; padding: 2rem;">
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+            <div style="width: 100%; height: 100%;">
+                <img src="https://images.unsplash.com/photo-1731902062588-4dce45ccc0cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Full moon reflecting over ocean" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
             </div>
-            <div class="hero-content2" style="padding: 2rem;">
+            <div style="padding: 2rem;">
                 <h1 style="font-size: 3.5rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; color: #000;">MoonTide<br>VR Experience</h1>
                 <p style="font-size: 1.1rem; line-height: 1.6; color: #333; max-width: 500px;">The MoonTide VR experience was designed based on sublime-based awe-inspiring design elements around the theme of tidal forces.</p>
             </div>
         </div>
     </section>
 
+    <!-- Sublime Elements Section -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
+            <h2 style="font-size: 2.5rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Sublime-Based Awe-Inspiring Design Elements</h2>
 
-    <section class="sublime-elements" style="padding: 5rem 2rem; background-color: #f5f5f5;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto;">
-        <h2 style="font-size: 2.5rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Sublime-Based Awe-Inspiring Design Elements</h2>
-        
-        <div class="element-item" style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-            <div class="element-content" style="flex: 1;">
-                <h3 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Terror</h3>
-                <ul style="list-style: none; padding: 0; margin: 0;">
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">Huge waves.</li>
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">Tremendous sound.</li>
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">A vast moon suddenly appears.</li>
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">Extreme light in contrast to the darkness of the night.</li>
-                </ul>
+            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Terror</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Huge waves.</li>
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Tremendous sound.</li>
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• A vast moon suddenly appears.</li>
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Extreme light in contrast to the darkness of the night.</li>
+                    </ul>
+                </div>
+                <div style="flex: 1;">
+                    <img src="https://images.unsplash.com/photo-1731902062588-4dce45ccc0cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
+                </div>
             </div>
-            <div class="element-image" style="flex: 1;">
-                <img src="terror-image.jpg" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
+
+            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Distance or modification</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The huge waves are at a distance from the shore.</li>
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The huge waves gradually move away.</li>
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The vast moon eventually sets, as the sun begins to rise.</li>
+                    </ul>
+                </div>
+                <div style="flex: 1;">
+                    <img src="https://images.unsplash.com/photo-1731902062588-4dce45ccc0cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Moon over ocean in the distance" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: flex-start; gap: 2rem;">
+                <div style="flex: 1;">
+                    <h3 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Obscurity</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The vast moon is much larger than what we usually see in daily life.</li>
+                    </ul>
+                </div>
+                <div style="flex: 1;">
+                    <img src="https://images.unsplash.com/photo-1731902062588-4dce45ccc0cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Close-up of a large moon" style="width: 100%; border-radius: 8px;">
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="element-item" style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-            <div class="element-content" style="flex: 1;">
-                <h3 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Distance or modification</h3>
-                <ul style="list-style: none; padding: 0; margin: 0;">
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">The huge waves are at a distance from the shore.</li>
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">The huge waves gradually move away.</li>
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">The vast moon eventually sets, as the sun begins to rise.</li>
-                </ul>
-            </div>
-            <div class="element-image" style="flex: 1;">
-                <img src="distance-image.jpg" alt="Moon over ocean in the distance" style="width: 100%; border-radius: 8px;">
-            </div>
-        </div>
+    <!-- Video Section -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA; font-family: Arial, sans-serif;">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h1 style="font-size: 2.5rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Videos</h1>
 
-        <div class="element-item" style="display: flex; align-items: flex-start; gap: 2rem;">
-            <div class="element-content" style="flex: 1;">
-                <h3 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Obscurity</h3>
-                <ul style="list-style: none; padding: 0; margin: 0;">
-                    <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">The vast moon is much larger than what we usually see in daily life.</li>
-                </ul>
-            </div>
-            <div class="element-image" style="flex: 1;">
-                <img src="obscurity-image.jpg" alt="Close-up of a large moon" style="width: 100%; border-radius: 8px;">
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-    <section class="video-section" style="padding: 5rem 2rem; background-color: #f5f5f5; font-family: Arial, sans-serif;">
-    <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
-        <h1 style="font-size: 2.5rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Videos</h1>
-        
-        <!-- Demonstration Video -->
-        <div class="video-block" style="margin-bottom: 4rem;">
-            <h2 style="font-size: 1.8rem; font-weight: 600; color: #000; margin-bottom: 1.5rem;">Demonstration Video</h2>
-            <div class="video-frame" style="margin-bottom: 1.5rem;">
-                <iframe src="demo-video-link" frameborder="0" style="width: 100%; height: 400px; border-radius: 8px;" allowfullscreen></iframe>
-            </div>
-            <p style="font-size: 1rem; line-height: 1.6; color: #333; text-align: left;">
+            <!-- Demonstration Video -->
+            <div style="margin-bottom: 4rem;">
+                <h2 style="font-size: 1.8rem; font-weight: 600; color: #000; margin-bottom: 1.8rem; text-align: left;">Demonstration Video</h2>
+                <div style="position: relative; padding-top: 56.25%; overflow: hidden; background-color: #000;">
+                    <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/1ZhdJztzyro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                          <p style="font-size: 1rem; line-height: 1.6; color: #333; text-align: left;">
                 The entire VR experience includes the following steps. Initially, the viewer finds themselves standing on the beach surrounded by the sea near sunset. Next, the viewer witnesses the gradual descent of the sun. After the sunset, a huge wave begins to rise from the sea at a distance from the viewer. When the waves reach halfway to their highest point, virtual rain falls. Meanwhile, a vast moon slowly ascends since sunset, eventually reaching the upper part of the viewer's field of vision. As the viewer continues to observe the rising waves, they may perceive the vast moon suddenly appearing in the sky. Subsequently, the huge wave gradually moves away from the viewer and descends back into the sea, with the moon also slowly descending. Lastly, after the moon sets, the sun rises again, casting warm sunlight on the beach. The entire experience concludes as the sun rises overhead.
             </p>
-        </div>
+            </div>
 
-        <!-- Presentation Video -->
-        <div class="video-block">
-            <h2 style="font-size: 1.8rem; font-weight: 600; color: #000; margin-bottom: 1.5rem;">Presentation Video</h2>
-            <div class="video-frame">
-                <iframe src="presentation-video-link" frameborder="0" style="width: 100%; height: 400px; border-radius: 8px;" allowfullscreen></iframe>
+            <!-- Interview Video -->
+            <div>
+                <h2 style="font-size: 1.8rem; font-weight: 600; color: #000; margin-bottom: 1.8rem; text-align: left;">Interview Video</h2>
+                <div style="position: relative; padding-top: 56.25%; overflow: hidden; background-color: #000;">
+                    <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/AIjpx84lULk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-
-    <section class="contributions-section" style="padding: 5rem 2rem; background-color: #3d5a80; font-family: Arial, sans-serif; color: #fff;">
+    </section>
+  
+  <!-- Contributions Section -->
+<section class="contributions-section" style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
     <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-        <h1 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 3rem;">My Contributions</h1>
+        <h1 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 3rem; text-align: left;">My Contributions</h1>
+        
+        <!-- Contributions Grid -->
         <div class="contributions-grid" style="display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
+            
             <!-- Independent Works -->
             <div class="independent-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1.5rem;">Independent works</h2>
+                <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1.8rem;">Independent works</h2>
                 <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
                     <li>• Conceptualization</li>
                     <li>• Reviewing and extracting theories</li>
@@ -192,21 +197,18 @@ author_profile: true
 
             <!-- Collaborative Works -->
             <div class="collaborative-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1.5rem;">Collaborative works</h2>
+                <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1.8rem;">Collaborative works</h2>
                 <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li><strong>Prototype Design:</strong> Conceptual design and storyboarding</li>
-                    <li><strong>Prototype Development:</strong> All coding aspects</li>
-                    <li><strong>Experiment Preparation:</strong> Design and setup of the study</li>
-                    <li><strong>Experiment Execution:</strong> Prototype operation and semi-structured interviews</li>
-                    <li><strong>Qualitative Data Analysis:</strong> Organized independent coding of materials and collaborative discussions in meetings.</li>
+                    <li><strong>• Prototype Design:</strong> Conceptual design and storyboarding</li>
+                    <li><strong>• Prototype Development:</strong> All coding aspects</li>
+                    <li><strong>• Experiment Preparation:</strong> Design and setup of the study</li>
+                    <li><strong>• Experiment Execution:</strong> Prototype operation and semi-structured interviews</li>
+                    <li><strong>• Qualitative Data Analysis:</strong> Organized independent coding of materials and collaborative discussions in meetings.</li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
-
-
-
 
 </body>
 </html>
