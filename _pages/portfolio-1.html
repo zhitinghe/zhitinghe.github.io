@@ -8,242 +8,128 @@ author_profile: true
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zhiting He | Portfolio</title>
-  <style>
-    /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonTide VR Experience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-    }
+        body {
+            font-family: Arial, sans-serif;
+        }
 
-    /* Header Section */
-    header {
-      background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-    }
+        .hero {
+            height: 70vh;
+            width: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(44, 55, 71, 0.3),
+                rgba(44, 55, 71, 0.3)
+            ),
+            url('moon-background.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
 
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
+        .back-button {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+            cursor: pointer;
+        }
 
-    header p {
-      font-size: 1.2rem;
-    }
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
 
-    /* About Section */
-    .about {
-      padding: 3rem 2rem;
-      background: #f4f4f4;
-      text-align: center;
-    }
+        .hero-content {
+            position: absolute;
+            bottom: 4rem;
+            left: 2rem;
+        }
 
-    .about h2 {
-      margin-bottom: 1.5rem;
-    }
+        .hero-content h1 {
+            color: white;
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
 
-    .about p {
-      max-width: 800px;
-      margin: 0 auto;
-    }
+        .project-info {
+            padding: 2rem;
+            background: white;
+        }
 
-    /* Projects Section */
-    .projects {
-      padding: 3rem 2rem;
-      text-align: center;
-    }
+        .project-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
 
-    .projects h2 {
-      margin-bottom: 2rem;
-    }
+        .authors {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
 
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-    }
+        .conference {
+            color: #4a90e2;
+            margin-bottom: 1rem;
+        }
 
-    .project-card {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      transition: transform 0.3s;
-    }
+        .paper-btn {
+            display: inline-block;
+            padding: 0.5rem 2rem;
+            background: #ffd700;
+            border-radius: 25px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
 
-    .project-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
+        @media (max-width: 768px) {
+            .hero {
+                height: 50vh;
+            }
 
-    .project-card h3 {
-      padding: 1rem;
-      font-size: 1.2rem;
-    }
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
 
-    .project-card:hover {
-      transform: scale(1.05);
-    }
+            .back-button {
+                font-size: 1.5rem;
+            }
 
-    /* Experience Section */
-    .experience {
-      padding: 3rem 2rem;
-      background: #f4f4f4;
-    }
-
-    .experience h2 {
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-
-    .timeline {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .timeline-item {
-      margin-bottom: 2rem;
-    }
-
-    .timeline-item h3 {
-      font-size: 1.1rem;
-      margin-bottom: 0.5rem;
-    }
-
-    /* Contact Section */
-    .contact {
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-
-    .contact h2 {
-      margin-bottom: 1rem;
-    }
-
-    .contact form {
-      max-width: 500px;
-      margin: 0 auto;
-      text-align: left;
-    }
-
-    .contact input,
-    .contact textarea {
-      width: 100%;
-      padding: 0.75rem;
-      margin-bottom: 1rem;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-
-    .contact button {
-      display: inline-block;
-      background: #333;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-
-    .contact button:hover {
-      background: #555;
-    }
-
-    /* Footer */
-    footer {
-      background: #333;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    footer a {
-      color: #00f7ff;
-      text-decoration: none;
-      margin: 0 0.5rem;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+            .project-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div>
-      <h1>Zhiting He</h1>
-      <p>Exploring the intersection of design and technology to inspire awe and creativity</p>
+    <section class="hero">
+        <a href="#" class="back-button">←</a>
+        <div class="hero-content">
+            <h1>MoonTide VR Experience</h1>
+        </div>
+    </section>
+    
+    <div class="project-info">
+        <div class="content-wrapper">
+            <h2 class="project-title">"I Feel Myself So Small!": Designing and Evaluating VR Awe Experiences Based on Theories Related to Sublime.</h2>
+            <div class="authors">Zhiting He, Min Fan, Xinyi Guo, Yifan Zhao, Yuqiu Wang</div>
+            <div class="conference">IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2024)</div>
+            <a href="#" class="paper-btn">Paper</a>
+        </div>
     </div>
-  </header>
-
-  <!-- About -->
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I am a digital media designer with a passion for creating transformative and immersive experiences. My work explores the boundaries of virtual reality and emotional design.</p>
-  </section>
-
-  <!-- Projects -->
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 1">
-        <h3>MoonTide VR Experience</h3>
-      </div>
-      <div class="project-card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 2">
-        <h3>Urban Walks</h3>
-      </div>
-      <div class="project-card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 3">
-        <h3>Interactive Storytelling</h3>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="experience">
-    <h2>Experience</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <h3>Lead Researcher, Digital Media Arts</h3>
-        <p>Designed awe-inspiring VR experiences that explore the relationship between emotion and digital storytelling.</p>
-      </div>
-      <div class="timeline-item">
-        <h3>Design Intern, Creative Studio</h3>
-        <p>Worked on creating user-centric designs and digital prototypes for augmented reality applications.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 Zhiting He | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
-  </footer>
+</body>
+</html>
