@@ -9,11 +9,11 @@ main:
   #- title: "Teaching"
     #url: /teaching/    
     
-  - title: "Projects"
+  - title: "portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /portfolio-1/
+  #- title: "Blog Posts"
+   # url: /portfolio-1/
     
   - title: "CV"
     url: /files/CV_Justine (Zhiting He).pdf
