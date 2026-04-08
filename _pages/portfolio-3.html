@@ -10,65 +10,93 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoonTide VR Experience</title>
-  <style>
-  .paper-button {
-    display: inline-block;
-    padding: 0.5rem 2rem;
-    background: #FDC435;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #FDC435;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Default shadow */
-  }
+    <title>Broadly Applicable Awe-Inspiring Design Elements</title>
+    <style>
+        .paper-button {
+            display: inline-block;
+            padding: 0.5rem 2rem;
+            background: #FDC435;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border: 2px solid #FDC435;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-  /* Hover effect */
-  .paper-button:hover {
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
-    background-color: #fbb03b; /* Change background color */
-    border-color: #fbb03b; /* Change border color */
-    transform: translateY(-3px); /* Slightly lift the button */
-  }
+        .paper-button:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            background-color: #fbb03b;
+            border-color: #fbb03b;
+            transform: translateY(-3px);
+        }
 
-  /* Active (click) effect */
-  .paper-button:active {
-    transform: scale(0.95); /* Shrink the button */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Inward shadow on click */
-  }
-    
-    /* Base styles for the arrow link */
-  .arrow-link {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    transform: scale(1);
-  }
+        .paper-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
 
-  /* Hover effect */
-  .arrow-link:hover {
-    color: #FDC435; /* Change color on hover */
-    transform: scale(1.1); /* Slightly enlarge the arrow */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increase shadow */
-  }
+        .arrow-link {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1);
+        }
 
-  /* Active (click) effect */
-  .arrow-link:active {
-    transform: scale(0.95); /* Shrink the arrow on click */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Inward shadow on click */
-  }
-</style>
-  
+        .arrow-link:hover {
+            color: #FDC435;
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .arrow-link:active {
+            transform: scale(0.95);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .five-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 900px) {
+            .two-col,
+            .five-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
+
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box;">
+
     <!-- Hero Section -->
     <section style="height: 70vh; width: 100%; background: linear-gradient(to bottom, rgba(44, 55, 71, 0.3), rgba(44, 55, 71, 0.3)), url('https://zhitinghe.github.io/images/Cover-VR awe media.png'); background-size: cover; background-position: center; position: relative;">
         <a href="https://zhitinghe.github.io/portfolio/" class="arrow-link">←</a>
@@ -83,105 +111,179 @@ author_profile: true
             <h2 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Exploring Broadly Applicable Awe-Inspiring Design Elements and its effectivenss in VR and video medium</h2>
             <div style="font-size: 1rem; color: #666; margin-bottom: 0.5rem;">Zhiting He, Zeyang Xie, Zhaohan Wang, Zihan Gao</div>
             <div style="font-size: 1rem; color: #406690; margin-bottom: 1.5rem;">(In preparation)</div>
-
         </div>
     </div>
 
     <!-- Hero 2 Section -->
     <section style="width: 100%; min-height: 50vh; background-color: #EAEAEA; display: flex; align-items: center; padding: 2rem;">
-        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+        <div class="section-container two-col">
             <div style="width: 100%; height: 100%;">
-                <img src="https://zhitinghe.github.io/images/Cover-VR awe media.png" alt="Full moon reflecting over ocean" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
+                <img src="https://zhitinghe.github.io/images/Cover-VR awe media.png" alt="Cover image for five awe scene project" style="width: 100%; height: auto; border-radius: 8px;">
             </div>
             <div style="padding: 0rem;">
                 <h1 style="font-size: 3rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; color: #000;">Broadly Applicable Awe-Inspiring Design Elements</h1>
-                <p style="font-size: 1rem; line-height: 1.6; color: #333; max-width: 500px;">This research project aims to develop design principles for creating various types of VR awe experiences that users can switch between to maintain the quality of awe. It also seeks to understand the role of VR in inducing awe compared to video and whether the effectiveness of media varies across different types of awe experiences.</p>
+                <p style="font-size: 1rem; line-height: 1.6; color: #333; max-width: 500px;">
+                    A multi-scene design exploration translating awe-related design elements into five VR scene concepts, with the broader goal of understanding how different awe structures may function across VR and video media.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Sublime Elements Section -->
+    <!-- Project Overview -->
+    <section style="padding: 4rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container" style="max-width: 1000px;">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Project Overview</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; margin-bottom: 1rem;">
+                This project explored how different awe-inducing design elements could be translated into immersive scene concepts. Instead of focusing on a single awe experience, it developed five distinct VR scene directions, each emphasizing a different type of awe trigger, such as vast scale, complex structure, abstract concepts, extraordinary power, or high-value symbolic objects.
+            </p>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333;">
+                The work was intended as a concept design exploration rather than a single final prototype, with the goal of examining how different awe structures could be designed, compared, and later adapted into production.
+            </p>
+        </div>
+    </section>
+
+    <!-- Initial Scene Planning -->
     <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
-        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Initial Scene Planning</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                This board documents the initial concept exploration for the five awe scenes. Some of these ideas were later refined or adapted during development based on time, feasibility, and production constraints.
+            </p>
 
-          
-           <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                                      <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Five Different Kinds of VR Awe Experiences</h2>
-                </div>
-                <div style="flex: 1;">
-                  <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Cultural Relic</h3>
-                    <img src="https://zhitinghe.github.io/images/san.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
+            <div style="text-align: center;">
+                <img src="YOUR_INITIAL_SCENE_PLANNING_IMAGE" alt="Initial planning board for five awe scenes" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
             </div>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                                      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Indoor Fires</h3>
-                    <img src="https://zhitinghe.github.io/images/fire.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
-                <div style="flex: 1;">
-                  <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Light Speed</h3>
-                    <img src="https://zhitinghe.github.io/images/lightspeed.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-          
-                      <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                                      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Water Freezing</h3>
-                    <img src="https://zhitinghe.github.io/images/water.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
-                <div style="flex: 1;">
-                  <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Mountain Views</h3>
-                    <img src="https://zhitinghe.github.io/images/mountain.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-
-          </section>
-           
-
-     <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
-        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
-            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Systematic Literature Review</h2>
-                          <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/VR awe media-SLR.png" alt="Systematic Literature Review" style="width: 100%; border-radius: 8px;">
-                </div>
         </div>
     </section>
 
-  
-  <!-- Contributions Section -->
-<section class="contributions-section" style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-        <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.1rem; text-align: left;">My Contributions</h1>
-        
-        <!-- Contributions Grid -->
-        <div class="contributions-grid" style="display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
-            
-            <!-- Independent Works -->
-            <div class="independent-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1.8rem;">Independent works</h2>
-                <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li>• Conceptualization</li>
-                    <li>• Systematic Literature Review</li>
-                    <li>• Quantitative Data Analysis</li>
-                    <li>• Writing</li>
-                </ul>
+    <!-- Design Framework -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Design Framework</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                The five scene concepts were developed from a broader mapping of awe-related design factors, including vast elements, complex structure, abstract concepts, extraordinary power or spirit, and high-value symbolic objects.
+            </p>
+
+            <div style="text-align: center;">
+                <img src="YOUR_DESIGN_FRAMEWORK_IMAGE" alt="Design framework for awe scene exploration" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Five Scene Concepts -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Five Scene Concepts</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                The table below summarizes the five initial scene concepts, the intended awe object in each case, and the design facets explored through each direction.
+            </p>
+
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <img src="YOUR_FIVE_SCENE_OVERVIEW_IMAGE" alt="Overview table of five awe scene concepts" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
             </div>
 
-            <!-- Collaborative Works -->
-            <div class="collaborative-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1.8rem;">Collaborative works</h2>
-                <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li>• Prototype Design: Conceptual design and storyboarding</li>
-                    <li>• Experiment Preparation: Design and setup of the study</li>
-                    <li>• Experiment Execution: Conducted semi-structured interviews</li>
-                    <li>• Qualitative Data Analysis: Organized independent coding of materials and collaborative discussions in meetings.</li>
+            <div class="five-grid">
+                <div class="card">
+                    <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.8rem; color: #000;">Scene 1 — Mountain Views</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333; margin: 0;">
+                        A natural landscape concept centered on vast size and horizon, emphasizing openness, distance, and environmental scale.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.8rem; color: #000;">Scene 2 — Water Freezing</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333; margin: 0;">
+                        A scene built around complex structure, using the process of water freezing to reveal unfamiliar patterns and hidden order.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.8rem; color: #000;">Scene 3 — Light Speed</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333; margin: 0;">
+                        A concept exploring awe through abstract scale and great concepts, translating the idea of extreme speed into an experiential journey.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.8rem; color: #000;">Scene 4 — Indoor Fires</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333; margin: 0;">
+                        A scene based on extraordinary power and threat, focusing on the rapid spread of fire and the user’s perception of overwhelming force.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.8rem; color: #000;">Scene 5 — Cultural Relic</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333; margin: 0;">
+                        A symbolic scene centered on high-value cultural objects, designed to evoke awe through historical significance, meaning, and reverence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Five Different Kinds of VR Awe Experiences -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Selected Scene Visuals</h2>
+
+            <div class="two-col" style="margin-bottom: 3rem;">
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Cultural Relic</h3>
+                    <img src="https://zhitinghe.github.io/images/san.gif" alt="Cultural relic scene" style="width: 100%; border-radius: 8px;">
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Indoor Fires</h3>
+                    <img src="https://zhitinghe.github.io/images/fire.gif" alt="Indoor fires scene" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+
+            <div class="two-col" style="margin-bottom: 3rem;">
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Light Speed</h3>
+                    <img src="https://zhitinghe.github.io/images/lightspeed.gif" alt="Light speed scene" style="width: 100%; border-radius: 8px;">
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Water Freezing</h3>
+                    <img src="https://zhitinghe.github.io/images/water.gif" alt="Water freezing scene" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+
+            <div style="max-width: 580px;">
+                <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Mountain Views</h3>
+                <img src="https://zhitinghe.github.io/images/mountain.gif" alt="Mountain views scene" style="width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Systematic Literature Review -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Systematic Literature Review</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                The broader design exploration was informed by a systematic literature review used to identify awe-related design elements and synthesize patterns across prior work.
+            </p>
+            <div style="text-align: center;">
+                <img src="https://zhitinghe.github.io/images/VR awe media-SLR.png" alt="Systematic Literature Review" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- My Role -->
+    <section style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
+        <div class="section-container">
+            <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">My Role</h1>
+
+            <div style="max-width: 900px; text-align: left;">
+                <ul style="list-style: none; padding: 0; line-height: 1.9; font-size: 1rem; margin: 0;">
+                    <li>• Developed the overall concept for the project and its scene design directions</li>
+                    <li>• Conducted the systematic literature review and extracted awe-related design elements</li>
+                    <li>• Translated extracted design factors into five scene concepts</li>
+                    <li>• Contributed to prototype design, study preparation, and interview execution</li>
+                    <li>• Participated in qualitative analysis and writing</li>
                 </ul>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 </body>
 </html>
