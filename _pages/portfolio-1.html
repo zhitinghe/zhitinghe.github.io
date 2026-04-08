@@ -11,64 +11,106 @@ author_profile: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoonTide VR Experience</title>
-  <style>
-  .paper-button {
-    display: inline-block;
-    padding: 0.5rem 2rem;
-    background: #FDC435;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #FDC435;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Default shadow */
-  }
+    <style>
+        .paper-button {
+            display: inline-block;
+            padding: 0.5rem 2rem;
+            background: #FDC435;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border: 2px solid #FDC435;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-  /* Hover effect */
-  .paper-button:hover {
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
-    background-color: #fbb03b; /* Change background color */
-    border-color: #fbb03b; /* Change border color */
-    transform: translateY(-3px); /* Slightly lift the button */
-  }
+        .paper-button:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            background-color: #fbb03b;
+            border-color: #fbb03b;
+            transform: translateY(-3px);
+        }
 
-  /* Active (click) effect */
-  .paper-button:active {
-    transform: scale(0.95); /* Shrink the button */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Inward shadow on click */
-  }
-    
-    /* Base styles for the arrow link */
-  .arrow-link {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    transform: scale(1);
-  }
+        .paper-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
 
-  /* Hover effect */
-  .arrow-link:hover {
-    color: #FDC435; /* Change color on hover */
-    transform: scale(1.1); /* Slightly enlarge the arrow */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increase shadow */
-  }
+        .arrow-link {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1);
+        }
 
-  /* Active (click) effect */
-  .arrow-link:active {
-    transform: scale(0.95); /* Shrink the arrow on click */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Inward shadow on click */
-  }
-</style>
-  
+        .arrow-link:hover {
+            color: #FDC435;
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .arrow-link:active {
+            transform: scale(0.95);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .media-box {
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #d9d9d9;
+        }
+
+        .media-box img,
+        .media-box iframe {
+            width: 100%;
+            display: block;
+            border: none;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .three-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 900px) {
+            .two-col,
+            .three-col {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
+
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box;">
+
     <!-- Hero Section -->
     <section style="height: 70vh; width: 100%; background: linear-gradient(to bottom, rgba(44, 55, 71, 0.3), rgba(44, 55, 71, 0.3)), url('https://zhitinghe.github.io/images/Cover-MoonTide.png'); background-size: cover; background-position: center; position: relative;">
         <a href="https://zhitinghe.github.io/portfolio/" class="arrow-link">←</a>
@@ -83,155 +125,201 @@ author_profile: true
             <h2 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">“I Feel Myself So Small!”: Designing and Evaluating VR Awe Experiences Based on Theories Related to Sublime</h2>
             <div style="font-size: 1rem; color: #666; margin-bottom: 0.5rem;">Zhiting He, Min Fan, Xinyi Guo, Yifan Zhao, Yuqiu Wang</div>
             <div style="font-size: 1rem; color: #406690; margin-bottom: 1.5rem;">IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2024)</div>
-<a href="https://drive.google.com/file/d/1pTeXt0i-H_27mF-aqSmjmWEP1FAvW7SY/view?usp=sharing" class="paper-button"；>
-    Paper </a>
-
+            <a href="https://drive.google.com/file/d/1pTeXt0i-H_27mF-aqSmjmWEP1FAvW7SY/view?usp=sharing" class="paper-button">Paper</a>
         </div>
     </div>
 
     <!-- Hero 2 Section -->
     <section style="width: 100%; min-height: 50vh; background-color: #EAEAEA; display: flex; align-items: center; padding: 2rem;">
-        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+        <div class="section-container two-col">
             <div style="width: 100%; height: 100%;">
-             <!-- <img src="https://zhitinghe.github.io/images/MoonTide.png" alt="Full moon reflecting over ocean" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;"> -->
-             <iframe style="width: 100%; aspect-ratio: 16 / 9; border: none; border-radius: 8px;" src="https://www.youtube.com/embed/XADh0P23SF4?si=vRkXJMZDviRs7pjR" frameborder="0"         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                
+                <iframe style="width: 100%; aspect-ratio: 16 / 9; border: none; border-radius: 8px;" src="https://www.youtube.com/embed/XADh0P23SF4?si=vRkXJMZDviRs7pjR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div style="padding: 2rem;">
                 <h1 style="font-size: 3rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; color: #000;">MoonTide<br>VR Experience</h1>
-                <p style="font-size: 1rem; line-height: 1.6; color: #333; max-width: 500px;">The MoonTide VR experience was designed based on sublime-based awe-inspiring design elements around the theme of tidal forces.</p>
+                <p style="font-size: 1rem; line-height: 1.6; color: #333; max-width: 500px;">
+                    A Unity-based VR prototype designed to evoke awe through scale, motion, environmental contrast, and embodied interaction.
+                </p>
             </div>
         </div>
     </section>
 
-    
-    <!-- Sublime Elements Section -->
+    <!-- Experience Overview -->
+    <section style="padding: 4rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container" style="max-width: 1000px;">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Experience Overview</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; margin-bottom: 1rem;">
+                MoonTide is a VR awe experience built around a shoreline scene shaped by a vast moon, rising waves, extreme light contrast, and environmental progression. The experience draws on concepts related to the sublime and translates them into scene elements that emphasize scale, instability, distance, and unfamiliarity.
+            </p>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333;">
+                The scene begins in a darker, more uncertain atmosphere, gradually intensifies through the appearance of the oversized moon and the rise of huge waves, and eventually transitions toward daylight as the moon sets and the waves move away.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience Progression -->
     <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
-        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
-            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Sublime-Based Awe-Inspiring <br> Design Elements</h2>
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 2rem;">Experience Progression</h2>
 
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Terror</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Huge waves.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Tremendous sound.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• A vast moon suddenly appears.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Extreme light in contrast to the darkness of the night.</li>
-                    </ul>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/hugewavesvastmoon.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
+            <!-- Replace with your combined progression image if needed -->
+            <div style="margin-bottom: 2rem; text-align: center;">
+                <img src="YOUR_MOONTIDE_PROGRESSION_IMAGE" alt="MoonTide progression" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
             </div>
 
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Distance or modification</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The huge waves are at a distance from the shore.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The huge waves gradually move away.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The vast moon eventually sets, as the sun begins to rise.</li>
-                    </ul>
+            <div class="two-col">
+                <div>
+                    <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(a) Calm shoreline at dusk</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                        The user first encounters a relatively calm shoreline environment that establishes spatial openness and a sense of anticipation.
+                    </p>
                 </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/moonset.gif" alt="Moon over ocean in the distance" style="width: 100%; border-radius: 8px;">
+                <div>
+                    <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(b) Vast moon emergence</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                        The oversized moon appears as a major source of visual and spatial contrast, shifting the user’s perception of scale.
+                    </p>
                 </div>
-            </div>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Obscurity</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The vast moon is much larger than what we usually see in daily life.</li>
-                    </ul>
+                <div>
+                    <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(c) Wave escalation and intensity</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                        Large waves, sound, and dramatic lighting intensify the environment and build emotional pressure.
+                    </p>
                 </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/vastmoon.gif" alt="Close-up of a large moon" style="width: 100%; border-radius: 8px;">
+                <div>
+                    <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(d) Moonset and return of daylight</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                        As the moon gradually sets and daylight returns, the environment shifts away from intensity toward distance and release.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Embodied Elements Section -->
-     <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
-        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
-            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Embodied design elements</h2>
+    <!-- Design Translation -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Design Translation</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                The scene design was developed by translating high-level sublime concepts into concrete VR elements such as environmental scale, wave motion, sound intensity, lighting contrast, and temporal progression.
+            </p>
 
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Visuomotor synchronization</h3>
-                    <div style="font-size: 1rem; color: #333;">
-                      <p style="margin-bottom: 0.5rem;">Visuomotor synchronization aligns the viewer's movements with the virtual body's actions, allowing control over virtual arms and head rotation for a 360-degree view. </p>
-                        </div>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/body.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
+            <div style="text-align: center;">
+                <img src="YOUR_DESIGN_TRANSLATION_TABLE" alt="Concept-to-design mapping for MoonTide" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
             </div>
+        </div>
+    </section>
 
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Visuotactile synchronization</h3>
-                    <div style="font-size: 1rem; color: #333;">
-                      <p style="margin-bottom: 0.5rem;">Visuotactile synchronization simulates 'raindrops' by sprinkling water on the viewer when the waves rise.</p>
-                        </div>
+    <!-- Scene Variants -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Scene Variants</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                Two scene variants were developed: a visually focused awe experience, and an embodied version that added virtual body alignment and tactile cues.
+            </p>
+
+            <div class="two-col" style="align-items: start;">
+                <div style="text-align: center;">
+                    <img src="YOUR_VR_SUBLIME_SCHEMATIC" alt="VR-Sublime schematic" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px; margin-bottom: 1rem;">
+                    <h3 style="font-size: 1.15rem; font-weight: 600; color: #000; margin-bottom: 0.5rem;">VR-Sublime</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                        A visually focused version emphasizing the moon, waves, light contrast, and environmental progression.
+                    </p>
                 </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/Sprinkling water.png" alt="Moon over ocean in the distance" style="width: 100%; border-radius: 8px;">
+
+                <div style="text-align: center;">
+                    <img src="YOUR_VR_EMBODIED_SUBLIME_SCHEMATIC" alt="VR-Embodied Sublime schematic" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px; margin-bottom: 1rem;">
+                    <h3 style="font-size: 1.15rem; font-weight: 600; color: #000; margin-bottom: 0.5rem;">VR-Embodied Sublime</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                        An embodied version that additionally incorporated virtual body alignment and tactile cues to strengthen presence and bodily engagement.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Video Section -->
+    <!-- Embodied Interaction -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Embodied Interaction</h2>
+
+            <div class="two-col" style="margin-bottom: 3rem;">
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Visuomotor Synchronization</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333;">
+                        The user’s movements are aligned with the virtual body, allowing control over virtual arms and head rotation for a 360-degree embodied view of the scene.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://zhitinghe.github.io/images/body.gif" alt="Visuomotor synchronization" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+
+            <div class="two-col">
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Visuotactile Cue</h3>
+                    <p style="font-size: 1rem; line-height: 1.8; color: #333;">
+                        Water is sprinkled onto the user during the wave event, extending the experience beyond the visual environment and reinforcing the embodied intensity of the scene.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://zhitinghe.github.io/images/Sprinkling water.png" alt="Visuotactile cue" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Visual Development -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div class="section-container">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 1.5rem;">Selected Visual Development</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; max-width: 950px; margin-bottom: 2rem;">
+                Selected supporting materials from the visual development process, including mood references, color exploration, and environment setting.
+            </p>
+
+            <div class="three-col">
+                <div style="text-align: center;">
+                    <img src="YOUR_MOOD_BOARD_CROP" alt="Mood board crop" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
+                </div>
+                <div style="text-align: center;">
+                    <img src="YOUR_COLOR_SHAPE_CROP" alt="Color and shape exploration crop" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
+                </div>
+                <div style="text-align: center;">
+                    <img src="YOUR_LAYOUT_SETTING_CROP" alt="Layout or environment setting crop" style="max-width: 100%; height: auto; display: inline-block; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Presentation Video -->
     <section style="padding: 5rem 2rem; background-color: #EAEAEA; font-family: Arial, sans-serif;">
         <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
-
-            <!-- Interview Video -->
             <div>
-                <h2 style="font-size: 1.25rem; font-weight: 600; color: #000; margin-bottom: 1.8rem; text-align: left;">Presentation <br> Video</h2>
-                <div style="position: relative; padding-top: 56.25%; overflow: hidden; background-color: #000;">
+                <h2 style="font-size: 1.25rem; font-weight: 600; color: #000; margin-bottom: 1.8rem; text-align: left;">Presentation Video</h2>
+                <div style="position: relative; padding-top: 56.25%; overflow: hidden; background-color: #000; border-radius: 8px;">
                     <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/56AvL6uL2-A?si=Dn1EWLlmbjwRxr8L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </section>
-  
-  <!-- Contributions Section -->
-<section class="contributions-section" style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-        <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.1rem; text-align: left;">My Contributions</h1>
-        
-        <!-- Contributions Grid -->
-        <div class="contributions-grid" style="display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
-            
-            <!-- Independent Works -->
-            <div class="independent-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1.8rem;">Independent works</h2>
-                <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li>• Conceptualization</li>
-                    <li>• Reviewing and extracting theories</li>
-                    <li>• Quantitative data analysis</li>
-                    <li>• Writing</li>
-                </ul>
-            </div>
 
-            <!-- Collaborative Works -->
-            <div class="collaborative-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1.8rem;">Collaborative works</h2>
-                <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li>• Prototype Design: Conceptual design and storyboarding</li>
-                    <li>• Prototype Development: All coding aspects</li>
-                    <li>• Experiment Preparation: Design and setup of the study</li>
-                    <li>• Experiment Execution: Prototype operation and semi-structured interviews</li>
-                    <li>• Qualitative Data Analysis: Organized independent coding of materials and collaborative discussions in meetings.</li>
+    <!-- My Role -->
+    <section style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
+        <div class="section-container">
+            <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; text-align: left;">My Role</h1>
+
+            <div style="max-width: 900px; text-align: left;">
+                <ul style="list-style: none; padding: 0; line-height: 1.9; font-size: 1rem; margin: 0;">
+                    <li>• Led concept development and scene design</li>
+                    <li>• Translated sublime references into concrete environmental design decisions</li>
+                    <li>• Implemented the Unity prototype, including day–night transitions, wave behavior, and environmental timing</li>
+                    <li>• Integrated audio and embodied interaction cues</li>
+                    <li>• Conducted study setup and semi-structured interviews</li>
+                    <li>• Contributed to data analysis and writing</li>
                 </ul>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 </body>
 </html>
