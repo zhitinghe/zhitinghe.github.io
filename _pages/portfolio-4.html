@@ -10,209 +10,256 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoonTide VR Experience</title>
-  <style>
-  .paper-button {
-    display: inline-block;
-    padding: 0.5rem 2rem;
-    background: #FDC435;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    border: 2px solid #FDC435;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Default shadow */
-  }
+    <title>Thunderstorm: A VR Awe Experience Prototype</title>
+    <style>
+        .paper-button {
+            display: inline-block;
+            padding: 0.5rem 2rem;
+            background: #FDC435;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border: 2px solid #FDC435;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-  /* Hover effect */
-  .paper-button:hover {
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
-    background-color: #fbb03b; /* Change background color */
-    border-color: #fbb03b; /* Change border color */
-    transform: translateY(-3px); /* Slightly lift the button */
-  }
+        .paper-button:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            background-color: #fbb03b;
+            border-color: #fbb03b;
+            transform: translateY(-3px);
+        }
 
-  /* Active (click) effect */
-  .paper-button:active {
-    transform: scale(0.95); /* Shrink the button */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Inward shadow on click */
-  }
-    
-    /* Base styles for the arrow link */
-  .arrow-link {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    color: white;
-    font-size: 2rem;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    transform: scale(1);
-  }
+        .paper-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        }
 
-  /* Hover effect */
-  .arrow-link:hover {
-    color: #FDC435; /* Change color on hover */
-    transform: scale(1.1); /* Slightly enlarge the arrow */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increase shadow */
-  }
+        .arrow-link {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            color: white;
+            font-size: 2rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            transform: scale(1);
+        }
 
-  /* Active (click) effect */
-  .arrow-link:active {
-    transform: scale(0.95); /* Shrink the arrow on click */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Inward shadow on click */
-  }
-</style>
-  
+        .arrow-link:hover {
+            color: #FDC435;
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .arrow-link:active {
+            transform: scale(0.95);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .progression-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .media-box {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #d9d9d9;
+        }
+
+        .media-box img,
+        .media-box iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            object-fit: cover;
+            display: block;
+        }
+
+        @media (max-width: 900px) {
+            .progression-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
+
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box;">
 
-    <!-- Hero 2 Section -->
+    <!-- Hero Section -->
     <section style="width: 100%; min-height: 50vh; background-color: #EAEAEA; display: flex; align-items: center; padding: 2rem;">
         <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
-            <div style="width: 100%; height: 100%;">
-             <!-- <img src="https://zhitinghe.github.io/images/MoonTide.png" alt="Full moon reflecting over ocean" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;"> -->
-             <iframe style="width: 100%; aspect-ratio: 16 / 9; border: none; border-radius: 8px;" src="https://www.youtube.com/embed/rMIa6vxIZ-U?si=4xSEWpF9axbIvTkw" frameborder="0"         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                
-            </div>
-            <div style="padding: 2rem;">
-                <h1 style="font-size: 3rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; color: #000;">MoonTide<br>VR Experience</h1>
-                <p style="font-size: 1rem; line-height: 1.6; color: #333; max-width: 500px;">The MoonTide VR experience was designed based on sublime-based awe-inspiring design elements around the theme of tidal forces.</p>
-            </div>
-        </div>
-    </section>
-
-    
-    <!-- Sublime Elements Section -->
-    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
-        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
-            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Sublime-Based Awe-Inspiring <br> Design Elements</h2>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Terror</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Huge waves.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Tremendous sound.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• A vast moon suddenly appears.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• Extreme light in contrast to the darkness of the night.</li>
-                    </ul>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/hugewavesvastmoon.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Distance or modification</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The huge waves are at a distance from the shore.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The huge waves gradually move away.</li>
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The vast moon eventually sets, as the sun begins to rise.</li>
-                    </ul>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/moonset.gif" alt="Moon over ocean in the distance" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Obscurity</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="font-size: 1rem; color: #333; margin-bottom: 0.5rem;">• The vast moon is much larger than what we usually see in daily life.</li>
-                    </ul>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/vastmoon.gif" alt="Close-up of a large moon" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Embodied Elements Section -->
-     <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
-        <div style="max-width: 1200px; margin: 0 auto; text-align-items: center;">
-            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">Embodied design elements</h2>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Visuomotor synchronization</h3>
-                    <div style="font-size: 1rem; color: #333;">
-                      <p style="margin-bottom: 0.5rem;">Visuomotor synchronization aligns the viewer's movements with the virtual body's actions, allowing control over virtual arms and head rotation for a 360-degree view. </p>
-                        </div>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/body.gif" alt="Huge waves in the dark" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-
-            <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 3rem;">
-                <div style="flex: 1;">
-                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Visuotactile synchronization</h3>
-                    <div style="font-size: 1rem; color: #333;">
-                      <p style="margin-bottom: 0.5rem;">Visuotactile synchronization simulates 'raindrops' by sprinkling water on the viewer when the waves rise.</p>
-                        </div>
-                </div>
-                <div style="flex: 1;">
-                    <img src="https://zhitinghe.github.io/images/Sprinkling water.png" alt="Moon over ocean in the distance" style="width: 100%; border-radius: 8px;">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Video Section -->
-    <section style="padding: 5rem 2rem; background-color: #EAEAEA; font-family: Arial, sans-serif;">
-        <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
-
-            <!-- Interview Video -->
-            <div>
-                <h2 style="font-size: 1.25rem; font-weight: 600; color: #000; margin-bottom: 1.8rem; text-align: left;">Presentation <br> Video</h2>
-                <div style="position: relative; padding-top: 56.25%; overflow: hidden; background-color: #000;">
-                    <iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/56AvL6uL2-A?si=Dn1EWLlmbjwRxr8L" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-  
-  <!-- Contributions Section -->
-<section class="contributions-section" style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
-    <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-        <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.1rem; text-align: left;">My Contributions</h1>
-        
-        <!-- Contributions Grid -->
-        <div class="contributions-grid" style="display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap;">
             
-            <!-- Independent Works -->
-            <div class="independent-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1.8rem;">Independent works</h2>
-                <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li>• Conceptualization</li>
-                    <li>• Reviewing and extracting theories</li>
-                    <li>• Quantitative data analysis</li>
-                    <li>• Writing</li>
-                </ul>
+            <!-- Hero Media -->
+            <div style="width: 100%; height: 100%;">
+                <!-- Option A: Hero video -->
+                <iframe
+                    style="width: 100%; aspect-ratio: 16 / 9; border: none; border-radius: 8px;"
+                    src="https://www.youtube.com/embed/rMIa6vxIZ-U?si=4xSEWpF9axbIvTkw"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+                <!-- Option B: If you want to use an image instead, replace the iframe above with:
+                <img src="YOUR_HERO_IMAGE_LINK" alt="Thunderstorm prototype hero image" style="width: 100%; height: auto; border-radius: 8px;">
+                -->
             </div>
 
-            <!-- Collaborative Works -->
-            <div class="collaborative-works" style="flex: 1; min-width: 300px; text-align: left;">
-                <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1.8rem;">Collaborative works</h2>
-                <ul style="list-style: none; padding: 0; line-height: 1.8; font-size: 1rem;">
-                    <li>• Prototype Design: Conceptual design and storyboarding</li>
-                    <li>• Prototype Development: All coding aspects</li>
-                    <li>• Experiment Preparation: Design and setup of the study</li>
-                    <li>• Experiment Execution: Prototype operation and semi-structured interviews</li>
-                    <li>• Qualitative Data Analysis: Organized independent coding of materials and collaborative discussions in meetings.</li>
-                </ul>
+            <!-- Hero Text -->
+            <div style="padding: 2rem;">
+                <h1 style="font-size: 3rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; color: #000;">
+                    Thunderstorm<br>VR Awe Experience Prototype
+                </h1>
+                <p style="font-size: 1rem; line-height: 1.6; color: #333; max-width: 500px;">
+                    A rapid Unreal Engine VR prototype using lightning, fire, rain, and regrowth to guide an experience from threat-driven awe to calm and renewal.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Progression Section -->
+<section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 2rem;">
+            Experience Progression
+        </h2>
+
+        <!-- Combined progression image -->
+        <div class="media-box" style="margin-bottom: 2rem;">
+            <img src="https://zhitinghe.github.io/images/Cave_phrases.png" alt="Combined four-stage progression of the thunderstorm experience">
+        </div>
+
+        <!-- Stage descriptions -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+            <div>
+                <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(a) Shelter and Tension</h3>
+                <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                    The user begins inside a small stone shelter. A campfire suggests warmth and safety, while the outside environment is dark, cloudy, and uncertain.
+                </p>
+            </div>
+
+            <div>
+                <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(b) First Lightning Strike</h3>
+                <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                    A distant tree is struck by lightning, introducing the first visible sign of danger.
+                </p>
+            </div>
+
+            <div>
+                <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(c) Escalation</h3>
+                <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                    Lightning strikes again closer to the user. Fire spreads across trees and grass, increasing intensity and perceived threat.
+                </p>
+            </div>
+
+            <div>
+                <h3 style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.6rem; color: #000;">(d) Resolution and Renewal</h3>
+                <p style="font-size: 1rem; line-height: 1.7; color: #333; margin: 0;">
+                    Rain extinguishes the fire. The sky clears, sunlight returns, and burnt ground begins to regrow with grass and flowers.
+                </p>
             </div>
         </div>
     </div>
 </section>
+
+    <!-- Design Focus Section -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 3rem;">
+                Design Focus
+            </h2>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+                
+                <div style="flex: 1; min-width: 260px;">
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Awe Trigger</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333;">
+                        Lightning was chosen as the core awe-inducing force because it is widely recognizable as powerful, dangerous, and uncontrollable. Its impact is expressed through visible changes in the surrounding environment.
+                    </p>
+                </div>
+
+                <div style="flex: 1; min-width: 260px;">
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Emotional Arc</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333; margin-bottom: 0.5rem;">
+                        The experience is structured as a transition:
+                    </p>
+                    <ul style="padding-left: 1.2rem; margin: 0; color: #333; line-height: 1.8;">
+                        <li>uncertainty and observation</li>
+                        <li>threat and escalation</li>
+                        <li>release and recovery</li>
+                        <li>renewal and positive meaning</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 260px;">
+                    <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #000;">Environmental Framing</h3>
+                    <p style="font-size: 1rem; line-height: 1.7; color: #333;">
+                        The stone shelter acts as a framing device. By restricting peripheral views, it focuses attention on the outdoor scene and reinforces the contrast between interior safety and exterior danger.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Spatial Setup Section -->
+    <section style="padding: 5rem 2rem; background-color: #EAEAEA;">
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="font-size: 2rem; font-weight: 700; color: #000; margin-bottom: 2rem;">
+                Spatial Setup
+            </h2>
+
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; margin-bottom: 1.5rem;">
+                The environment was intentionally simplified to keep attention on the awe-related events.
+            </p>
+
+            <p style="font-size: 1rem; line-height: 1.8; color: #333; margin-bottom: 1.5rem;">
+                Inside the shelter, only a few elements are present, with the campfire providing warmth and a sense of protection. Outside, the grassland and trees form the main stage for the unfolding thunderstorm.
+            </p>
+
+            <p style="font-size: 1rem; line-height: 1.8; color: #333;">
+                The experience uses a low-agency first-person setup: the user cannot move or interact with objects, but can freely turn their head and body to observe the changing environment.
+            </p>
+        </div>
+    </section>
+
+    <!-- My Role Section -->
+    <section style="padding: 5rem 2rem; background-color: #406690; font-family: Arial, sans-serif; color: #fff;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 2rem; text-align: left;">My Role</h2>
+
+            <div style="max-width: 850px;">
+                <ul style="list-style: none; padding: 0; line-height: 1.9; font-size: 1rem; margin: 0;">
+                    <li>• Developed the overall concept and four-stage experience structure</li>
+                    <li>• Designed the spatial setup, including the shelter framing and restricted viewpoint</li>
+                    <li>• Built the prototype in Unreal Engine</li>
+                    <li>• Implemented event sequencing through level blueprint</li>
+                    <li>• Integrated lightning, fire, rain, and sky transitions into the experience flow</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Note Section -->
+    <section style="padding: 4rem 2rem; background-color: #EAEAEA;">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <h2 style="font-size: 1.5rem; font-weight: 700; color: #000; margin-bottom: 1rem;">
+                Note
+            </h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: #333;">
+                This rapid prototype focuses on experience structure, event sequencing, and environmental transformation rather than visual polish.
+            </p>
+        </div>
+    </section>
 
 </body>
 </html>
